@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: 'Inter',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.makebold{
+    font-weight:bolder;
+}
+
+.heroimg
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+
+}
+.causeimg{
+    width: 22vw;
+    height:20vh;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.causeparaw{
+    width:22vw;
+    color: #C0C3CA;
+}
+.darkbluebutton{
+ background-color:#1f3d8a;
+ color:white;
+
+}
+.commonfooter{
+    background-color: #DBDEE3;
+   
+}
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    color: white;
+
+   
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 18px;
+}
+.butsize{
+    width: 200px;
+}
+.aboutimg{
+    width:100px;
+    height: 100px;
+}

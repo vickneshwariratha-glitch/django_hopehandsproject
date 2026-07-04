@@ -1,0 +1,77 @@
+{% extends 'hopehands\layouts\main.html' %}
+{% load static %}
+
+{% block title %}
+    Welcome to Hope Hands Foundation-Vounteer page
+{% endblock title %}
+{% block content %}
+
+<div class="image-container my-5">
+    <img src="{% static 'images/volunteer1.png' %}" class="heroimg" alt="volunteer image"/>
+    <div class="content">
+      <h1 class="fs-1 fw-bold">Be the Change. Become a Volunteer.</h1>
+      <P class="fs-4">Your time, skills and compassion can bring real change to lives that need support.</P>
+      <div class="text-center my-4">
+        <button class="btn darkbluebutton fs-4 fw-medium" type="submit">Join as a Volunteer </button>
+    
+
+    </div>
+
+    </div>
+</div>
+<div class="my-5 container">
+    <h1 class="fs-2 fw-bold">Volunteer Program Introduction</h1>
+    <p class="fs-4 mb-4">At HopeHands Foundation, volunteers are the heart of everything we do. Whether you have time, skills, or simply a kind heart, your contribution can help us reach more lives and create lasting impact.</p>
+    <img src="{%static 'images/volunteer2.png' %}" class="heroimg my-5" alt="volunteers image"/>
+
+</div>
+<div class="container my-5">
+    <h3 class="my-4">Ways you can help</h3>
+    <button type="button" class="btn btn-outline-primary butsize me-4"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Education Support</button>
+    <button type="button" class="btn btn-outline-success me-4"><i class="fa fa-stethoscope" aria-hidden="true">Medical Assistance</i>
+    <button type="button" class="btn btn-outline-warning me-4"><i class="fa fa-truck" aria-hidden="true"></i>
+Food Distribution</button>
+<button type="button" class="btn btn-outline-dark me-4"><i class="fa fa-calendar" aria-hidden="true"></i>
+Event coordination</button>
+<button type="button" class="btn btn-outline-info me-4"><i class="fa fa-internet-explorer" aria-hidden="true"></i>
+Online/Remote Vounteering</button>
+
+
+
+
+
+</div>
+
+<form class="my-5 p-5 container">
+    <h2 class="my-4">Join our Volunteer Community</h2>
+    <div class="mb-3">
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+</div>
+<div class="mb-3">
+  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email address">
+</div>
+<div class="mb-3">
+  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Phone Number">
+</div>
+<select class="form-select form-select-lg mb-3" aria-label="Large select example">
+  <option selected>Area of Interest</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+<select class="form-select form-select-lg mb-3" aria-label="Large select example">
+  <option selected>Availability</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+  <div class="text-center my-5">
+        <button class="btn darkbluebutton fs-4 fw-medium" type="submit">Become a Volunteer </button>
+        <p class="text-body-secondary my-4">We respect your time and privacy. Our team will contact you soon.</p>
+    
+
+    </div>
+
+</form>
+
+{% endblock %}
